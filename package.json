@@ -1,0 +1,34 @@
+{
+  "name": "js-wrap-brunch",
+  "version": "0.0.1",
+  "description": "Adds possibility to wrap brunch js output and not break source map.",
+  "author": "Vitaliy Ribachenko (http://ribachenko.com/)",
+  "homepage": "https://github.com/vitaliyr/js-wrap-brunch",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vitaliyr/js-wrap-brunch.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/eslint index.js && node_modules/.bin/mocha"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "1.11.0",
+    "chai": "1.7.0",
+    "eslint": "^2.1.0"
+  },
+  "keywords": [
+    "brunch-plugin",
+    "wrapper-brunch",
+    "closure-wrapper-brunch",
+    "closure-brunch",
+    "sif-brunch",
+    "self-invoking-function-brunch"
+  ]
+}
